@@ -69,10 +69,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="MainActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/KioskMode/src/main/java/com/kioskmode/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="47" selection-start="551" selection-end="551" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="558">
+            <state line="19" column="0" selection-start="558" selection-end="558" vertical-scroll-proportion="0.6094808" vertical-offset="0" max-vertical-offset="666">
               <folding />
             </state>
           </provider>
@@ -81,8 +81,11 @@
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/KioskMode/src/main/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="65" selection-start="573" selection-end="573" vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="738">
-              <folding />
+            <state line="16" column="67" selection-start="575" selection-end="575" vertical-scroll-proportion="0.0" vertical-offset="63" max-vertical-offset="738">
+              <folding>
+                <element signature="e#489#507#0" expanded="false" />
+                <element signature="e#674#692#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -90,7 +93,7 @@
       <file leaf-file-name="KioskBootReceiver.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/KioskMode/src/main/java/com/kioskmode/KioskBootReceiver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="56" selection-start="428" selection-end="428" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="414">
+            <state line="14" column="39" selection-start="468" selection-end="468" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="414">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -101,16 +104,25 @@
       <file leaf-file-name="CurrentTask" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/KioskMode/tasks/CurrentTask">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="42" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="108">
+            <state line="3" column="0" selection-start="142" selection-end="142" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="162">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Tasks" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="PreviousTasks" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/KioskMode/tasks/PreviousTasks">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="97" selection-start="141" selection-end="141" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="144">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Tasks" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/KioskMode/tasks/Tasks">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="234" selection-end="234" vertical-scroll-proportion="0.12189616" vertical-offset="0" max-vertical-offset="443">
+            <state line="12" column="52" selection-start="478" selection-end="478" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="378">
               <folding />
             </state>
           </provider>
@@ -158,9 +170,10 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/KioskMode/src/main/java/com/kioskmode/KioskBootReceiver.java" />
+        <option value="$PROJECT_DIR$/KioskMode/tasks/CurrentTask" />
+        <option value="$PROJECT_DIR$/KioskMode/tasks/PreviousTasks" />
         <option value="$PROJECT_DIR$/KioskMode/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/KioskMode/src/main/java/com/kioskmode/MainActivity.java" />
-        <option value="$PROJECT_DIR$/KioskMode/tasks/CurrentTask" />
         <option value="$PROJECT_DIR$/KioskMode/tasks/Tasks" />
       </list>
     </option>
@@ -398,6 +411,26 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="24" width="1602" height="857" extended-state="6" />
     <editor active="true" />
@@ -413,13 +446,13 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32954547" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22586873" sideWeight="0.67045456" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18854569" sideWeight="0.67045456" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -489,46 +522,49 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/KioskMode/tasks/PreviousTasks">
+    <entry file="file://$PROJECT_DIR$/KioskMode/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="443">
-          <folding />
+        <state line="16" column="67" selection-start="575" selection-end="575" vertical-scroll-proportion="0.0" vertical-offset="63" max-vertical-offset="738">
+          <folding>
+            <element signature="e#489#507#0" expanded="false" />
+            <element signature="e#674#692#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/KioskMode/src/main/java/com/kioskmode/KioskBootReceiver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="56" selection-start="428" selection-end="428" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="414">
+        <state line="14" column="39" selection-start="468" selection-end="468" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="414">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/KioskMode/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="65" selection-start="573" selection-end="573" vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="738">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KioskMode/src/main/java/com/kioskmode/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="47" selection-start="551" selection-end="551" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="558">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/KioskMode/tasks/CurrentTask">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="42" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="108">
+        <state line="3" column="0" selection-start="142" selection-end="142" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="162">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KioskMode/tasks/PreviousTasks">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="97" selection-start="141" selection-end="141" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="144">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/KioskMode/tasks/Tasks">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="234" selection-end="234" vertical-scroll-proportion="0.12189616" vertical-offset="0" max-vertical-offset="443">
+        <state line="12" column="52" selection-start="478" selection-end="478" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="378">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KioskMode/src/main/java/com/kioskmode/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="558" selection-end="558" vertical-scroll-proportion="0.6094808" vertical-offset="0" max-vertical-offset="666">
           <folding />
         </state>
       </provider>
