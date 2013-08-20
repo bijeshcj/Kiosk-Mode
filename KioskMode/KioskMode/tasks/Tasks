@@ -1,0 +1,3 @@
+* create a broadcast receiver through which the application will launcn after the phone starts -- done
+* make sure the activity tales full screen mode to disable the notification bar -- done
+* disabling the home button -- in progress
