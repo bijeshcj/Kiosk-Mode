@@ -35,7 +35,7 @@
                 </string>
                 <string name="app_name" >KioskMode
                 </string>
-                <string name="hello_world" >Hello world!
+                <string name="hello_world" >Your mobile is being hacked....
                 </string>
             </file>
             <file
@@ -78,6 +78,12 @@
                 qualifiers="sw720dp-land" >
                 <dimen name="activity_horizontal_margin" >128dp
                 </dimen>
+            </file>
+            <file
+                path="/home/npcompete/Bijesh/AndroiStudioWorkspace/Kiosk-Mode/KioskMode/KioskMode/src/main/res/values/colors.xml"
+                qualifiers="" >
+                <color name="green" >#00ff00
+                </color>
             </file>
         </source>
         <source path="/home/npcompete/Bijesh/AndroiStudioWorkspace/Kiosk-Mode/KioskMode/KioskMode/build/res/rs/debug" />

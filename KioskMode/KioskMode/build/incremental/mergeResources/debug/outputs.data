@@ -2,8 +2,8 @@
 # format is <lastModified> <length> <SHA-1> <path>
 # Encoding is UTF-8
 1376975811000 366 ff72e49dec08f6bfa17c396262055ddbcaa1c1bd /home/npcompete/Bijesh/AndroiStudioWorkspace/Kiosk-Mode/KioskMode/KioskMode/build/res/all/debug/menu/main.xml
-1376975811000 782 8409249973967bf2b2a890612d36bfa20ac5dddb /home/npcompete/Bijesh/AndroiStudioWorkspace/Kiosk-Mode/KioskMode/KioskMode/build/res/all/debug/layout/activity_main.xml
-1376975811000 1173 ccf1adbd77b7e00d7a09579246d904ac60fb967f /home/npcompete/Bijesh/AndroiStudioWorkspace/Kiosk-Mode/KioskMode/KioskMode/build/res/all/debug/values/values.xml
+1377065987000 1047 121f0fbbcfbade6d6ccca80ad1799bbb74108005 /home/npcompete/Bijesh/AndroiStudioWorkspace/Kiosk-Mode/KioskMode/KioskMode/build/res/all/debug/layout/activity_main.xml
+1377065987000 1363 4de827464b6b16c61f65f422db4bf3c6c579586e /home/npcompete/Bijesh/AndroiStudioWorkspace/Kiosk-Mode/KioskMode/KioskMode/build/res/all/debug/values/values.xml
 1376975811000 17765 702fd3311475c099afc13c0b03375d917cc82018 /home/npcompete/Bijesh/AndroiStudioWorkspace/Kiosk-Mode/KioskMode/KioskMode/build/res/all/debug/drawable-xxhdpi/ic_launcher.png
 1376975811000 3121 c13193c37274d333ac028cc72c260b891662d9d0 /home/npcompete/Bijesh/AndroiStudioWorkspace/Kiosk-Mode/KioskMode/KioskMode/build/res/all/debug/drawable-mdpi/ic_launcher.png
 1376975811000 5946 4bf7402bd7df466a787014bdbf5cafd9aa89c2b5 /home/npcompete/Bijesh/AndroiStudioWorkspace/Kiosk-Mode/KioskMode/KioskMode/build/res/all/debug/drawable-hdpi/ic_launcher.png
