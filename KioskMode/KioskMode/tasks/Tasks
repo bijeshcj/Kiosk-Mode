@@ -2,7 +2,11 @@
 * disable the status bar -- in progress
       method name:collapseStatusBar()
       http://stackoverflow.com/questions/13766789/android-how-to-collapse-status-bar-on-android-4-2
-         android permission expand/collapse status bar
+         -- android permission expand/collapse status bar
+* make your app as launcher by default rather than using android's default launcher -- in progress
+* set the wallpaper when the phone starts up till the application opens -- not done
+        -- see the permssions used bu sidelock for setting the wallpaper
+
 
 
 

@@ -1,6 +1,7 @@
 package com.kioskmode;
 
 import android.app.NotificationManager;
+import android.os.Build;
 import android.os.Bundle;
 import android.app.Activity;
 import android.util.Log;
@@ -20,7 +21,7 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        Log.d(TAG,"onCreate");
+        Log.d(TAG,"$$$ onCreate");
 
         collapseStatusBar();
 
@@ -37,7 +38,12 @@ public class MainActivity extends Activity {
         try{
         Object service = this.getSystemService("statusbar");
         Class<?> statusbarManager = Class.forName("android.app.StatusBarManager");
-        Method collapse = statusbarManager.getMethod("collapsePanels");
+        Method collapse = null;
+            Log.d(TAG,"Build version "+Build.VERSION.SDK_INT);
+            if(Build.VERSION.SDK_INT > 16)
+                collapse = statusbarManager.getMethod("collapsePanels");
+            else
+                collapse = statusbarManager.getMethod("collapse");
         collapse.setAccessible(true);
         collapse.invoke(service);
         }

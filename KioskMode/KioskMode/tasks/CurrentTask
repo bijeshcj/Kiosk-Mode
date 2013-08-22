@@ -2,4 +2,8 @@
 
   trying this link http://stackoverflow.com/questions/3898876/how-to-disable-the-home-key -- in progress
 
+* make your app as launcher by default rather than using android's default launcher -- in progress
+
+  1) create kiosk app as the launcher app -- in progress
+
 
